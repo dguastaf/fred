@@ -4,6 +4,3 @@ __pycache__/
 .venv/
 dist/
 *.egg-info/
-.pytest_cache/
-node_modules/
-node_modules/
