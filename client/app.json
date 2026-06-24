@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "fred2",
-    "slug": "fred2",
+    "name": "Fred 🐙",
+    "slug": "fred",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "fred2",
+    "scheme": "fred",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
