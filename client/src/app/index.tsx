@@ -1,17 +1,16 @@
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import GoogleAuthButton from "./components/GoogleAuthButton";
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
-    </View>
+    <SafeAreaView className="flex-1">
+      <View className="flex-1 items-center">
+        <Text className="text-4xl font-bold">Fred! 🐙</Text>
+        <GoogleAuthButton
+          onPress={() => console.log("Google authentication pressed")}
+        />
+      </View>
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
